@@ -1,4 +1,5 @@
 res = 0
-for i in range(1,3,1):
+n = int(input('n = '))
+for i in range(1, n + 1):
      res = res+ i
 print(res)

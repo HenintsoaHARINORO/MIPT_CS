@@ -1,9 +1,9 @@
 res = 0
 n = int(input('n = '))
-for n in range(0, n+1):
+while n >= 0:
     S = (2 * n + 1) ** 3
     res = S + res
+    n += 1
+    if n == n:
+        break
 print(res)
-
-
-
