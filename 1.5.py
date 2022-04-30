@@ -6,6 +6,6 @@ for i in range(n):
     number.append(num)
 print(number)
 for i in range(len(number)):
-    if number[i] >= 0:
-        flag += 1
+      if number[i] == 4:
+         flag += 1
 print(flag)
