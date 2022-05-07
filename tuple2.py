@@ -1,0 +1,6 @@
+empty = ()
+card = ('7', 'пик')
+t = (18,)
+print(len(card))
+print(card[0])
+print(card + t)
