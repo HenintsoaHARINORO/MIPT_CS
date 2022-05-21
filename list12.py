@@ -26,3 +26,5 @@ secret_message = ' '.join(secret_words)
 print(secret_message)
 
 print(' '.join(input().split()[2::3]))
+
+
