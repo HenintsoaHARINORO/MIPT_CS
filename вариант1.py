@@ -1,0 +1,16 @@
+# Вариант: 1
+import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()
+#t.shape('turtle')
+t.color('blue')
+t.width(5)
+t.left(90)
+t.forward(100)
+t.backward(100)
+t.right(45)
+t.forward(100)
+t.backward(100)
+t.right(45)
+t.forward(100)
+wn.exitonclick()
